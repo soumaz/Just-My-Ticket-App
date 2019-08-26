@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Bus_Details">
+  <DataContextMoniker Name="/Bus_DetailsDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3c0fd22d-151d-4dc4-a89d-da5c1928f262" absoluteBounds="1, 0.625, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/Bus_DetailsDataContext/Bus_Route" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ad396977-0996-49be-9152-f42c661ee78e" absoluteBounds="1.015, 1.085, 1.9700000000000002, 1.7878011067708333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="039b265c-29ed-4df3-9db4-f559b2846987" absoluteBounds="1.625, 3.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/Bus_DetailsDataContext/REGISTER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fd399ed7-c404-4698-b149-ea6990ea5ad8" absoluteBounds="1.6400000000000001, 3.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="101dd9b7-34b4-4748-a2f1-ea1520f884ed" absoluteBounds="4, 0.875, 2, 2.5401025390625">
+      <DataClassMoniker Name="/Bus_DetailsDataContext/MONEY_TRANSACTION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="81f6ba6c-5a9a-45c7-9215-b5a2dc0b8213" absoluteBounds="4.015, 1.335, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

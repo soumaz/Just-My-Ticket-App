@@ -1,0 +1,5 @@
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\WcfService1_Location\bin\WcfService1_Location.dll
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\WcfService1_Location\bin\WcfService1_Location.pdb
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\WcfService1_Location\obj\Release\ResolveAssemblyReference.cache
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\WcfService1_Location\obj\Release\WcfService1_Location.dll
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\WcfService1_Location\obj\Release\WcfService1_Location.pdb

@@ -1,0 +1,10 @@
+C:\Apps\JustMyTicket\BusWCF\bin\BusWCF.dll
+C:\Apps\JustMyTicket\BusWCF\bin\BusWCF.pdb
+C:\Apps\JustMyTicket\BusWCF\obj\Release\BusWCF.dll
+C:\Apps\JustMyTicket\BusWCF\obj\Release\BusWCF.pdb
+C:\Apps\JustMyTicket\BusWCF\obj\Release\BusWCF.csprojResolveAssemblyReference.cache
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\BusWCF\bin\BusWCF.dll
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\BusWCF\bin\BusWCF.pdb
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\BusWCF\obj\Release\ResolveAssemblyReference.cache
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\BusWCF\obj\Release\BusWCF.dll
+C:\Users\souvik.mazumdar\Downloads\codestorm_code\codestorm_code\JustMyTicket\BusWCF\obj\Release\BusWCF.pdb

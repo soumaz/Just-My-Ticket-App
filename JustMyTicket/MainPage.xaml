@@ -1,0 +1,70 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="JustMyTicket.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" Height="2"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="12,21,12,0" Background="White" Grid.RowSpan="2" Height="747">
+            <TextBlock Margin="202,165,172,0" TextWrapping="Wrap" VerticalAlignment="Top" d:LayoutOverrides="Width"/>
+            <TextBlock HorizontalAlignment="Left" Margin="8,8,0,0" TextWrapping="Wrap" Text="Recharge" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Left" Margin="94,8,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock Margin="180,8,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" HorizontalAlignment="Left" Width="88" />
+            <TextBlock HorizontalAlignment="Right" Margin="0,8,105,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <TextBlock HorizontalAlignment="Right" Margin="0,8,18,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+            <Rectangle Fill="White" Margin="0,89,0,0" Stroke="Black" Height="658" />
+            <TextBlock HorizontalAlignment="Left" Height="31" Margin="65,141,0,0" TextWrapping="Wrap" Text="Source" VerticalAlignment="Top" Width="136" OpacityMask="#FFAD4343" Foreground="#FF0E0303" FontSize="22"/>
+            <TextBlock x:Name="txtSource" Margin="182,141,77,0" TextWrapping="Wrap" Height="51" VerticalAlignment="Top" Foreground="#FF0E0303" Text="" />
+            <TextBlock Height="33" Margin="65,198,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="126" Text="End" Foreground="Black" FontSize="22"/>
+            <TextBlock x:Name="txtDestination" Margin="181,198,76,513" TextWrapping="Wrap" Foreground="#FF0E0303" Text="" />
+            <TextBlock Height="36" Margin="64,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="115" Text="Duration" Foreground="Black" FontSize="22"/>
+            <TextBlock x:Name="txtDuration" Height="39" Margin="180,0,77,457" TextWrapping="Wrap" VerticalAlignment="Bottom" Text="" Foreground="#FF0E0303" />
+            <TextBlock Height="40" Margin="64,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="86" Text="Distance" Foreground="Black" FontSize="22"/>
+            <TextBlock x:Name="txtDistanceValue" Height="45" Margin="180,310,77,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF0E0303" Text="" />
+            <TextBlock Height="47" Margin="64,373,0,0" TextWrapping="Wrap" VerticalAlignment="Top" HorizontalAlignment="Left" Width="112" Text="Route No" Foreground="Black" FontSize="22"/>
+            <TextBlock Height="38" Margin="65,0,0,283" TextWrapping="Wrap" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="60" Text="Fare" Foreground="Black" FontSize="22"/>
+            <TextBlock Height="46" Margin="180,89,126,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Summary" Foreground="Black" FontSize="26.667" FontFamily="Arial Black" />
+            <TextBlock x:Name="txtBusNoValue" Margin="0,373,76,0" TextWrapping="Wrap" Height="47" VerticalAlignment="Top" Foreground="#FF0E0303" Text="" HorizontalAlignment="Right" Width="199" />
+            <TextBlock x:Name="txtPriceValue" Height="38" Margin="180,428,77,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF0E0303" Text="30" />
+            <Image Margin="-1,-4,0,0" Source=".\Images\JustMyTicket.png" Stretch="Fill" Height="93" VerticalAlignment="Top" />
+            <Button Content="OK" Height="69" HorizontalAlignment="Left" Margin="154,559,0,0" Name="Ok" VerticalAlignment="Top" Width="148" Background="Thistle" Foreground="#FF240F24" Click="Ok_Click" />
+            <TextBlock Height="43" HorizontalAlignment="Left" Margin="64,470,0,0" Text="Date" VerticalAlignment="Top" Width="115" Foreground="Black" FontSize="22" />
+            <TextBlock  x:Name="txtDateValue" Height="43" HorizontalAlignment="Left" Margin="182,470,0,0"  VerticalAlignment="Top" Width="198" Foreground="Black" />
+        </Grid>
+    </Grid>
+
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>
